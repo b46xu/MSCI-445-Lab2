@@ -1,17 +1,19 @@
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\bin\Debug\MSCI 445 Lab2.exe.config
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\bin\Debug\MSCI 445 Lab2.exe
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\bin\Debug\MSCI 445 Lab2.pdb
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2.csprojAssemblyReference.cache
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MainWindow.g.cs
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\App.g.cs
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2_MarkupCompile.cache
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2_MarkupCompile.lref
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MainWindow.baml
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2.g.resources
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI_445_Lab2.Properties.Resources.resources
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2.csproj.GenerateResource.cache
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2.csproj.CoreCompileInputs.cache
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2.exe
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\MSCI 445 Lab2.pdb
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\Password_Input.g.cs
-C:\Users\16475\source\repos\MSCI 445 Lab2\MSCI 445 Lab2\obj\Debug\Password_Input.baml
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/bin/Debug/MSCI 445 Lab2.exe.config
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/bin/Debug/MSCI 445 Lab2.exe
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/bin/Debug/MSCI 445 Lab2.pdb
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.csprojAssemblyReference.cache
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MainWindow.g.cs
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/App.g.cs
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2_MarkupCompile.cache
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2_MarkupCompile.lref
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MainWindow.baml
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.g.resources
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI_445_Lab2.Properties.Resources.resources
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.csproj.GenerateResource.cache
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.csproj.CoreCompileInputs.cache
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.exe
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.pdb
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/Password_Input.g.cs
+C:/Users/16475/source/repos/MSCI 445 Lab2/MSCI 445 Lab2/obj/Debug/Password_Input.baml
+/Users/smills/Code/assignments/MSCI-445-Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.exe
+/Users/smills/Code/assignments/MSCI-445-Lab2/MSCI 445 Lab2/obj/Debug/MSCI 445 Lab2.pdb

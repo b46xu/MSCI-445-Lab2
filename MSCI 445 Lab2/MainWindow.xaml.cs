@@ -21,29 +21,25 @@ namespace MSCI_445_Lab2
     /// </summary>
     public partial class MainWindow : Window
     {
+        // private field
+        private String send_to;
+        private String send_from;
+        private String msg_subject;
+        private String msg_body;
+
         public MainWindow()
         {
             InitializeComponent();
         }
-		<Label x:Name="To" Content="To:"   HorizontalAlignment="Left" Height="30" Margin="80,50,0,0" VerticalAlignment="Top" Width="80" AutomationProperties.Name="To"/>
-		<Label x:Name="From" Content="From:" HorizontalAlignment="Left" Height="30" Margin="80,90,0,0" VerticalAlignment="Top" Width="80"/>
-		<Label x:Name="Subject" Content="Subject:" HorizontalAlignment="Left" Height="36" Margin="80,130,0,0" VerticalAlignment="Top" Width="80"/>
-		<TextBox HorizontalAlignment = "Left" Height="20" Margin="210,55,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="125" TextAlignment="Center" TextChanged="TextBox_TextChanged"/>
-		<Label x:Name="Body" Content="Body:" HorizontalAlignment="Left" Height="25" Margin="80,170,0,0" VerticalAlignment="Top" Width="80"/>
-		<TextBlock HorizontalAlignment = "Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-		<TextBox HorizontalAlignment = "Left" Height="20" Margin="210,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
-		<TextBox HorizontalAlignment = "Left" Height="20" Margin="210,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
-		<TextBox HorizontalAlignment = "Left" Height="155" Margin="210,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
-		<Button Content = "Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="425,51,0,0" Click="ButtonClick"/>
 
-		// User click 
-		private void ButtonClick(object sender, RoutedEventArgs e)
+        // When the user clicks the send button this function will be called
+        private void ButtonClick(object sender, RoutedEventArgs e)
         {
             string[] errors;
             int index = 0;
 
             TextBox send_to_box = (TextBox)this.FindName("To");
-            String send_to = send_to_box.Text;
+            send_to = send_to_box.Text;
             // the isEmpty is most likely redudent here. We can do 2 checks for a more custom message
             // or simply take this out
             if (!IsValidEmail(send_to) || IsEmpty(send_to))
@@ -53,24 +49,24 @@ namespace MSCI_445_Lab2
             }
 
             TextBox send_from_box = (TextBox)this.FindName("From");
-            String send_to = send_to_box.Text;
-            if (!IsValidEmail(send_to) || IsEmpty(send_to))
+            send_from = send_to_box.Text;
+            if (!IsValidEmail(send_from) || IsEmpty(send_from))
             {
                 errors[index] = "Please ensure the sender email is a valid email address";
                 index++;
             }
 
             TextBox subject_box = (TextBox)this.FindName("Subject");
-            String send_to = send_to_box.Text;
-            if (IsEmpty(send_to))
+            msg_subject = send_to_box.Text;
+            if (IsEmpty(msg_subject))
             {
                 errors[index] = "Please include a subject";
                 index++;
             }
 
             TextBox body_box = (TextBox)this.FindName("Body");
-            String body = body_box.Text;
-            if (IsEmpty(body))
+            msg_body = body_box.Text;
+            if (IsEmpty(msg_body))
             {
                 errors[index] = "Please include a body";
                 index++;
@@ -110,7 +106,7 @@ namespace MSCI_445_Lab2
                 return false;
             }
         }
-        bool IsEmpty(string name, string input)
+        bool IsEmpty(string input)
         {
             if (input == "")
             {
@@ -118,20 +114,17 @@ namespace MSCI_445_Lab2
             }
             return true;
         }
-
+        //Do we need this function?
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
 
-
-        public static void Send_Email(String password1)
+        // Send_Email function is used to send an email
+        public static void Send_Email(String password)
         {
-
             //get from and to here 
-
-
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
@@ -139,7 +132,7 @@ namespace MSCI_445_Lab2
                 EnableSsl = true,
             };
 
-            smtpClient.Send("xbht0412@gmail.com", "xbht0412@gmail.com", "testing", "body");
+            smtpClient.Send(send_to, send_from, msg_subject, msg_body);
 
 
         }
